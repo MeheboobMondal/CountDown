@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+   color: white;
+}
+body{
+    background: #1b0530;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./pexels-helena-lopes-2055225.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100vw;
+    height: 100%;
+    
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+}
+.header{
+    /* width: 80vw; */
+   background-color: rgba(25, 24, 26, 0.9);
+   width: 100vw;
+   height: 100vh;
+   
+}
+.header h2{
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+
+    /* border: 1px solid #ddd;  */
+    /* /* display: inline-block; */
+    /* background-color: #1b0530; */
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 15px;
+    text-align: center;
+}
+.box input{
+    height: 60px;
+    width: 100px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #b7f314;
+    border: 2px solid rgb(119, 121, 35);
+    border-radius: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 75px;
+    color: black;
+}
+.box label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Responsive Design start here */
+
+@media only screen and (max-width: 390px) {
+    /* For Phone: */
+    .header h2{
+        font-size: 35px;
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        margin: 0 30px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .box label{
+        padding-top: 25px;
+    }
+    .box input{
+        font-size: 20px;
+        height: 40px;
+        width: 70px;
+
+    }
+    .two label{
+        padding-right: 27px;
+    }
+    .three label{
+        padding-right: 17px;
+    }
+    
+  }
