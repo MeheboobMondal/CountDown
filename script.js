@@ -11,7 +11,6 @@ const clock = () => {
     const target = new Date(date);
     const newDate = new Date();
     const dif = (target - newDate) / 1000;
-    const month = Math.floor(dif / 18000 / 100)
     const days = Math.floor(dif / 3600 / 24);
     const hr = (Math.floor(dif / 3600) % 24);
     const mnt = (Math.floor(dif / 60) % 60)
