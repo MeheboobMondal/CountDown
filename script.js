@@ -16,7 +16,7 @@ const clock = () => {
     const hr = (Math.floor(dif / 3600) % 24);
     const mnt = (Math.floor(dif / 60) % 60)
     const sec = (Math.floor(dif) % 60)
-    inp[0].value = month;
+    
     inp[1].value = days;
     inp[2].value = hr;
     inp[3].value = mnt;
